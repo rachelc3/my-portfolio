@@ -54,3 +54,12 @@ header h2 {
     line-height: 80px;
     padding: 20px 0 20px 25px;
 }
+
+
+
+/* About */
+
+ img {
+    height: 400px;
+    width: 300px;
+ }
