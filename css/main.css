@@ -59,7 +59,12 @@ header h2 {
 
 /* About */
 
- img {
+#aboutme img {
     height: 400px;
     width: 300px;
  }
+
+ #aboutme p {
+    font-size: 18px;
+    text-align: center;
+}
