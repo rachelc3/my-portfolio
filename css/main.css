@@ -81,4 +81,10 @@ header h2 {
 
 #projects h2, h3, p {
     text-align: center;
+    padding: 10px;
+}
+
+#projects img {
+    height: 250px;
+    width: 350px;
 }
