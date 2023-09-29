@@ -75,3 +75,10 @@ header h2 {
 #skills h2, h3, p {
     text-align: center;
 }
+
+
+/* Projects */
+
+#projects h2, h3, p {
+    text-align: center;
+}
