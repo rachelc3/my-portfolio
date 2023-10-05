@@ -60,6 +60,10 @@ header h2 {
 
 /* About */
 
+#aboutme {
+    height:650px;
+}
+
 #aboutme img {
     height: 400px;
     width: 300px;
