@@ -10,16 +10,16 @@ body {
 /* Grid */
 
 .full-width {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     overflow: auto;
 }
 .half-width {
-    width: 600px;
+    width: 50%;
     float: left;
 }
 .third-width {
-    width: 400px;
+    width: 33%;
     float: left;
 }
 
@@ -27,11 +27,12 @@ body {
 /* Header */
 
 header {
-    height: 800px;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 header h1 { 
-    font-size: 30px;
+    font-size: 2em;
 }
 
 nav {
@@ -50,7 +51,7 @@ nav ul li a {
 }
 
 header h2 {
-    width: 1000px;
+    width: 100%;
     clear: both;
     font-size: 72px;
     line-height: 80px;
@@ -61,12 +62,12 @@ header h2 {
 /* About */
 
 #aboutme {
-    height:650px;
+    height: auto;
 }
 
 #aboutme img {
-    height: 400px;
-    width: 300px;
+    max-width: 100%;
+    height: auto;
  }
 
  #aboutme p {
@@ -89,19 +90,57 @@ header h2 {
 }
 
 #projects img {
-    height: 250px;
-    width: 350px;
-}
+    max-width: 100%;
+    height: auto;
+  }
 
 /* Contact */
 
-#contact h3 {
-    text-align: center;
-}
-
+#contact h3,
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%; 
+  display: block; 
+  margin: 0 auto;
+  text-align: center;
+  width: 20%;
 }
+/* Media Queries */
+
+/* Mobile styles */
+@media (max-width: 480px) {
+
+    .half-width {
+      width: 100%; 
+    }
+    
+    img {
+      width: 100%;
+    }
+  
+  }
+
+/* Tablet Styles */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .half-width {
+      width: 100%;
+    }
+  
+    #contact h3 {
+      width: 50%;
+    }
+  
+  }
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+
+    .half-width {
+      width: 50%;
+    }
+  
+    #contact h3 {
+      width: 30%;
+    }
+  
+  }
+
