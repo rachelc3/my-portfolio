@@ -13,3 +13,56 @@ body {
 
 /* Header */
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 15px 0;
+  }
+  
+  header .content-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  .header-divider {
+    background: #351D77; 
+    height: 1px;
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
+  
+  header nav {
+    width: 60%;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    font-size: 1.125em;
+  }
+  
