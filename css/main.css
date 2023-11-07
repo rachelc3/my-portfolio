@@ -65,4 +65,22 @@ header {
   header nav ul li {
     font-size: 1.125em;
   }
+
+  /* Hero Area */ 
+
+  .hero-area {
+    background: url(../img/purple-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .hero-area h2 {
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 2;
+  }
   
