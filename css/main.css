@@ -66,6 +66,7 @@ header {
     font-size: 1.125em;
   }
 
+
   /* Hero Area */ 
 
   .hero-area {
@@ -83,4 +84,27 @@ header {
     font-weight: 600;
     line-height: 2;
   }
-  
+
+
+/* About Me */
+
+#aboutme {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#aboutme h2 {
+  font-size: 3em;
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+#aboutme img {
+  max-width: 50%;
+}
+
+#aboutme p {
+  width: 50%;
+  margin: 20px;
+}
