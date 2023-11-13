@@ -90,8 +90,7 @@ header {
 
 #aboutme {
   display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+  flex-direction: row;
 }
 
 #aboutme h2 {
@@ -101,10 +100,10 @@ header {
 }
 
 #aboutme img {
-  max-width: 50%;
+  width: 50%;
 }
 
 #aboutme p {
   width: 50%;
-  margin: 20px;
-}
+  margin-left: 20px;
+} 
