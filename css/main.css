@@ -107,3 +107,34 @@ header {
   width: 50%;
   margin-left: 20px;
 } 
+
+
+/* Skills */
+
+#skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#skills .content-wrapper {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+#skills h2 {
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+#skills-content {
+  margin-bottom: 50px;
+}
+
+#skills-content h3 {
+  line-height: 1.333;
+}
