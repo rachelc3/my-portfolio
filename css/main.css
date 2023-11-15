@@ -138,3 +138,25 @@ header {
 #skills-content h3 {
   line-height: 1.333;
 }
+
+/* Projects */ 
+
+.projects-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects-items article {
+  margin: 20px; 
+}
+
+.projects-image img {
+  max-width: 33%;
+}
+
+.projects-image, 
+.projects-names,
+.projects-description {
+  margin-bottom: 20px;
+}
