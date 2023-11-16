@@ -139,6 +139,7 @@ header {
   line-height: 1.333;
 }
 
+
 /* Projects */ 
 
 .projects-items {
@@ -159,4 +160,16 @@ header {
 .projects-names,
 .projects-description {
   margin-bottom: 20px;
+}
+
+/* Footer */
+/* Contact */
+
+footer {
+  text-align: center;
+  flex-direction: column;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
