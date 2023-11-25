@@ -177,7 +177,22 @@ footer .contact {
 
 /* Media query for viewports at least 768px wide */
 @media only screen and (min-width: 768px) {
-  /* CSS rules here */ 
+  
+    /* General styles */
+    .content-wrapper {
+      max-width: 640px;
+      margin: 100px 0;
+    }
+        
+    h2 {
+      font-size: 2.25em;
+      line-height: 1.333;
+    }
+  
+    h3 {
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
 }
 
 
