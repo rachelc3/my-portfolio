@@ -230,6 +230,18 @@ footer .contact {
       line-height: 1.5;
       margin: 0;
     }
+
+    /* About Me */
+    .aboutme h2 {
+      font-size: 2em;
+      margin-bottom: 50px;
+      line-height: 0.5;
+    }
+
+    .aboutme p {
+      margin-left: 40px;
+    }
+
 }
 
 
