@@ -219,6 +219,17 @@ footer .contact {
       .header-divider {
         display: none;
       }
+
+    /* Hero Area */
+    .hero-area {
+      min-height: 700px;
+    }
+
+    .hero-area h2 {
+      font-size: 4.5em;
+      line-height: 1.5;
+      margin: 0;
+    }
 }
 
 
