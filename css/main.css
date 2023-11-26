@@ -232,13 +232,13 @@ footer .contact {
     }
 
     /* About Me */
-    .aboutme h2 {
+    #aboutme h2 {
       font-size: 2em;
       margin-bottom: 50px;
       line-height: 0.5;
     }
 
-    .aboutme p {
+    #aboutme p {
       margin-left: 40px;
     }
 
