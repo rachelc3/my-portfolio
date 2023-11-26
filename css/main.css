@@ -177,7 +177,7 @@ footer .contact {
 
 /* Media query for viewports at least 768px wide */
 @media only screen and (min-width: 768px) {
-  
+
     /* General styles */
     .content-wrapper {
       max-width: 640px;
@@ -193,6 +193,32 @@ footer .contact {
         font-size: 1.5em;
         line-height: 1.25;
     }
+      /* Header */
+      header {
+        justify-content: space-around;
+        padding: 33px 0;
+      }
+    
+      header .content-wrapper {
+        width: 100%;
+        justify-content: space-between;
+      }
+    
+      header figure {
+        width: 30%;
+      }
+    
+      header nav {
+        width: 20%;
+      }
+    
+      header nav ul {
+        justify-content: space-between;
+      }
+    
+      .header-divider {
+        display: none;
+      }
 }
 
 
