@@ -242,6 +242,24 @@ footer .contact {
       margin-left: 40px;
     }
 
+    /* Skills */
+    #skills .content-wrapper{
+      justify-content: space-between;
+    }
+
+    #skills-content {
+      flex-basis: 45%;
+    }
+
+    #skills h2 {
+      width: 100%;
+    }
+
+    #skills h3 {
+      font-size: .875em;
+      line-height: 1.125;
+    }
+
 }
 
 
