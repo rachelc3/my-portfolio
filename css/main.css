@@ -170,10 +170,6 @@ footer {
   flex-direction: column;
 }
 
-footer .contact {
-  margin-bottom: 50px;
-}
-
 
 /* Media query for viewports at least 768px wide */
 @media only screen and (min-width: 768px) {
