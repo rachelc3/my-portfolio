@@ -173,6 +173,9 @@ footer {
 
 /* Media query for viewports at least 768px wide */
 @media only screen and (min-width: 768px) {
+  .header-divider {
+    max-width: 75%;
+  }
 /* CSS rules here */ 
 }
 
