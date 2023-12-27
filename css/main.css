@@ -177,6 +177,13 @@ footer {
   .header-divider {
     max-width: 75%;
   }
+
+  /* Hero Area */
+  .hero-area h2 {
+    font-size: 3em;
+    line-height: 2;
+    text-align: center;
+  }
 }
 
 /* Media query for viewports at least 1200px wide */  
