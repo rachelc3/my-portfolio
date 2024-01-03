@@ -173,17 +173,7 @@ footer {
 
 /* Media query for viewports at least 768px wide */
 @media only screen and (min-width: 768px) {
-  /* Header */
-  .header-divider {
-    max-width: 75%;
-  }
-
-  /* Hero Area */
-  .hero-area h2 {
-    font-size: 3em;
-    line-height: 2;
-    text-align: center;
-  }
+  /* CSS rules here */ 
 }
 
 /* Media query for viewports at least 1200px wide */  
