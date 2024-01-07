@@ -101,6 +101,7 @@ header {
 
 #aboutme img {
   max-width: 50%;
+  max-height: 500px;
 }
 
 #aboutme p {
